@@ -1,5 +1,3 @@
-# insider-trading-api
-
 # Income statement API on https://site.financialmodelingprep.com.
 That describes how to use insider trading API on financialmodelingprep.com. 
 <br />
