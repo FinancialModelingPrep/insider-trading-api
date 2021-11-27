@@ -1,4 +1,4 @@
-# Income statement API on https://site.financialmodelingprep.com.
+# [Income Statement API Documentation](https://site.financialmodelingprep.com)
 That describes how to use insider trading API on financialmodelingprep.com. 
 <br />
 <br />
@@ -16,10 +16,10 @@ Each item returned from the endpoint also has a price field, which indicates wha
 **Request Parameters:**
 
 ```solidity
-symbol : Company Symbol, ex. AAPL
-companyCik : Number
-reportingCik : Number
-limit : Number
+String symbol : Company Symbol, ex. AAPL
+Integer companyCik : ex. 0000320193
+Integer reportingCik : ex. 0000320193
+Integer limit : ex. 120
 ```
 
 **Request Examples:**
