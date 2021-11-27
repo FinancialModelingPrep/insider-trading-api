@@ -22,7 +22,7 @@ Integer reportingCik : ex. 0000320193
 Integer limit : ex. 120
 ```
 
-**Request Examples:**
+**Request Examples:** <br />
 Most recent Stock Insider trading Transaction: <br />
 https://financialmodelingprep.com/api/v4/insider-trading?transactionType=P-Purchase,S-Sale&limit=100&apikey=YOUR_API_KEY <br />
 
