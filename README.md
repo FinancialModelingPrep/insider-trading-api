@@ -25,24 +25,19 @@ Integer limit : ex. 120
 **Request Examples:**
 Most recent Stock Insider trading Transaction: <br />
 https://financialmodelingprep.com/api/v4/insider-trading?transactionType=P-Purchase,S-Sale&limit=100&apikey=YOUR_API_KEY <br />
-<br />
 
 Stock insider trading using ticker: <br />
 https://financialmodelingprep.com/api/v4/insider-trading?symbol=AAPL&limit=100&apikey=YOUR_API_KEY <br />
-<br />
 
 Stock insider trading using reporting CIK: <br />
 https://financialmodelingprep.com/api/v4/insider-trading?reportingCik=0001663020&limit=100&apikey=YOUR_API_KEY <br />
-<br />
 
 Stock insider trading using company CIK: <br />
 https://financialmodelingprep.com/api/v4/insider-trading?companyCik=0000320193&limit=100&apikey=YOUR_API_KEY <br />
 <br />
-<br />
 
 Also you can get the list of all transaction types: <br />
 https://financialmodelingprep.com/api/v4/insider-trading-transaction-type?apikey=YOUR_API_KEY <br />
-<br />
 <br />
 
 **Response Example:**
