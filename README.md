@@ -1,4 +1,4 @@
-# [Income Statement API Documentation](https://site.financialmodelingprep.com)
+# [Income Statement API Documentation](https://site.financialmodelingprep.com/docs)
 That describes how to use insider trading API on financialmodelingprep.com. 
 <br />
 <br />
