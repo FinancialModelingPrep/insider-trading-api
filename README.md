@@ -22,3 +22,58 @@ reportingCik : Number
 limit : Number
 ```
 
+**Request Examples:**
+Most recent Stock Insider trading Transaction: <br />
+https://financialmodelingprep.com/api/v4/insider-trading?transactionType=P-Purchase,S-Sale&limit=100&apikey=YOUR_API_KEY <br />
+<br />
+
+Stock insider trading using ticker: <br />
+https://financialmodelingprep.com/api/v4/insider-trading?symbol=AAPL&limit=100&apikey=YOUR_API_KEY <br />
+<br />
+
+Stock insider trading using reporting CIK: <br />
+https://financialmodelingprep.com/api/v4/insider-trading?reportingCik=0001663020&limit=100&apikey=YOUR_API_KEY <br />
+<br />
+
+Stock insider trading using company CIK: <br />
+https://financialmodelingprep.com/api/v4/insider-trading?companyCik=0000320193&limit=100&apikey=YOUR_API_KEY <br />
+<br />
+<br />
+
+Also you can get the list of all transaction types: <br />
+https://financialmodelingprep.com/api/v4/insider-trading-transaction-type?apikey=YOUR_API_KEY <br />
+<br />
+<br />
+
+**Response Example:**
+```json
+[
+  {
+    "symbol" : "AAPL",
+    "transactionDate" : "2021-02-02",
+    "reportingCik" : "0001214128",
+    "transactionType" : "S-Sale",
+    "securitiesOwned" : 4532724,
+    "companyCik" : "0000320193",
+    "reportingName" : "LEVINSON ARTHUR D",
+    "acquistionOrDisposition" : "D",
+    "formType" : "4",
+    "securitiesTransacted" : 3416,
+    "securityName" : "Common Stock",
+    "link" : "https://www.sec.gov/Archives/edgar/data/0000320193/000032019321000023/0000320193-21-000023-index.htm"
+  }, {
+    "symbol" : "AAPL",
+    "transactionDate" : "2021-02-01",
+    "reportingCik" : "0001051401",
+    "transactionType" : "M-Exempt",
+    "securitiesOwned" : 0,
+    "companyCik" : "0000320193",
+    "reportingName" : "JUNG ANDREA",
+    "acquistionOrDisposition" : "D",
+    "formType" : "4",
+    "securitiesTransacted" : 3416,
+    "securityName" : "Restricted Stock Unit",
+    "link" : "https://www.sec.gov/Archives/edgar/data/0000320193/000032019321000022/0000320193-21-000022-index.htm"
+  },
+]
+```
