@@ -16,7 +16,7 @@ Each item returned from the endpoint also has a price field, which indicates wha
 **Request Parameters:**
 
 ```solidity
-String symbol : Company Symbol, ex. AAPL
+String symbol : ex. AAPL
 Integer companyCik : ex. 0000320193
 Integer reportingCik : ex. 0000320193
 Integer limit : ex. 120
